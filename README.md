@@ -10,3 +10,6 @@ https://meet.google.com/ugx-iskt-vbc
 
 **Online Session MS-Teams Link for all sessions:**<br>
 https://tinyurl.com/y8hmh8bt
+
+**PowerBI Download Link:**<br>
+https://www.microsoft.com/en-us/download/details.aspx?id=58494
