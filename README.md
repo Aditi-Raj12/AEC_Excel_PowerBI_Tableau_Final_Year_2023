@@ -14,5 +14,8 @@ https://tinyurl.com/y8hmh8bt
 **PowerBI Download Link:**<br>
 https://www.microsoft.com/en-us/download/details.aspx?id=58494
 
-**PDF Link on the Cluod:**<br>
+**PDF Link on the Cloud:**<br>
 https://www.indiapost.gov.in/VAS/DOP_PDFFiles/Civillistnew.pdf
+
+**Web Portal Link:**<br>
+https://www.contextures.com/xlsampledata01.htm
