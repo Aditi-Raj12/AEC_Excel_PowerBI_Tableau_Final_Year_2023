@@ -19,3 +19,9 @@ https://www.indiapost.gov.in/VAS/DOP_PDFFiles/Civillistnew.pdf
 
 **Web Portal Link:**<br>
 https://www.contextures.com/xlsampledata01.html
+
+**SQL-Server Credentials:**<br>
+* Server - Sqlplesk7.securehostdns.com,1234<br>
+* user id – codingskills<br>
+* password - Babi@2292<br>
+* database - codingskills
