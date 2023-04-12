@@ -20,6 +20,6 @@ https://www.indiapost.gov.in/VAS/DOP_PDFFiles/Civillistnew.pdf
 **Web Portal Link:**<br>
 https://www.contextures.com/xlsampledata01.html
 
-**Create youe account on Tableau:**<br>
+**Create your free account on Tableau:**<br>
 https://www.tableau.com/
 
