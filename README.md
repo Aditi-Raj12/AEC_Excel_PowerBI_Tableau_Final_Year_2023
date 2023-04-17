@@ -29,3 +29,13 @@ https://docs.microsoft.com/en-us/power-bi/desktop-create-and-manage-relationship
 **Lookup and Dimension Tables**<br>
 Lookup Tables or Dimension Tables will have Primary Keys, will answer Who, What, Where, When and How<br>
 Data Tables or Fact Table will have Foreign Keys, and will contain transactional data
+
+**Data Relationships for the Budget Project**<br>
+* Sales(CustomerKey) -> Customer(CustomerKey)<br>
+* Sales(OrderDate) -> Calendar(Date)<br>
+* Sales(ProductKey) -> Product(ProductKey)<br>
+* Sales(SalesTerritoryKey) -> Territories(SalesTerritoryKey)<br>
+* Budget(ProdyctKey) -> Product(ProductKey)<br>
+* Budget(Month) -> Calendar(Date)<br>
+
+
