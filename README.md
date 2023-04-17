@@ -23,3 +23,6 @@ https://www.contextures.com/xlsampledata01.html
 **Create your free account on Tableau:**<br>
 https://www.tableau.com/
 
+**Tutorial and Official Documentation on MS-Power BI Link:**<br>
+https://docs.microsoft.com/en-us/power-bi/desktop-create-and-manage-relationships
+
