@@ -43,6 +43,16 @@ TotalSales = SUM(RN_East1[EastSales])  // SUM(Coolumn Name)<br>
 AverageSales = AVERAGE(RN_East1[EastSales])  // AVERAGE(Column Name)<br>
 CountSales = COUNT(RN_East1[EastSales])   // COUNT(Column Name)<br>
 MaxSales = MAX(RN_East1[EastSales])   // MAX(Column Name)<br>
+MinSales = MIN(RN_East1[EastSales])   // MIN(Column Name)<br>
+SDSales = STDEV.S(RN_East1[EastSales])   // STDEV.S(Column Name)<br>
+VarSales = VAR.S(RN_East1[EastSales])   // VAR.S(Column Name)<br>
+SDSales1 = SQRT(VAR.S(RN_East1[EastSales]))   // SQRT(VAR.S(Column Name))<br>
+VarSales1 = STDEV.S(RN_East1[EastSales])^2   // STDEV.S(Column Name) ^ 2<br>
+GSTSalesSumX = SUMX(RN_East1, RN_East1[EastSales] * 0.18)   // SUMX(Table Name, Expression)<br>
+
+
+
+
 
 
 
