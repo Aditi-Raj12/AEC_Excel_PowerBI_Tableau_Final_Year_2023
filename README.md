@@ -55,7 +55,7 @@ GSTSalesMaxX = MAXX(RN_East1, RN_East1[EastSales] * 0.18)   // MAXX(Table Name, 
 CountOfRows = COUNTROWS(RN_East1)   // COUNTROWS(Table Name)<br>
 CountXOfRows = COUNTAX(RN_East1, RN_East1[EastSales] * 0.18)   // COUNTAX(Table Name, Expression)<br>
 CalculateMinGST = CALCULATE([TotalSales] * 0.18, RN_East1[Month] = "AUG", RN_East1[Product] = "P013")   // CALCULATE(Expression, Filter1, Filter2, ...)<br>
-
-
+FilterMinGST = MINX(FILTER(RN_East1, RN_East1[Month] = "AUG"), [TotalSales] * 0.18)   // FILTER(Table Name, Filter)<br>
+TotalSalesAll = CALCULATE(sum(RN_East1[EastSales]), ALL(RN_East1))   // ALL(Table Name[<Column>])<br>
 
 
