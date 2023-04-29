@@ -51,10 +51,10 @@ VarSales1 = STDEV.S(RN_East1[EastSales])^2   // STDEV.S(Column Name) ^ 2<br>
 GSTSalesSumX = SUMX(RN_East1, RN_East1[EastSales] * 0.18)   // SUMX(Table Name, Expression)<br>
 GSTSalesAvgX = AVERAGEX(RN_East1, RN_East1[EastSales] * 0.18)   // AVERAGEX(Table Name, Expression)<br>
 GSTSalesMinX = MINX(RN_East1, RN_East1[EastSales] * 0.18)   // MINX(Table Name, Expression)<br>
-
-
-
-
+GSTSalesMaxX = MAXX(RN_East1, RN_East1[EastSales] * 0.18)   // MAXX(Table Name, Expression)<br>
+CountOfRows = COUNTROWS(RN_East1)   // COUNTROWS(Table Name)<br>
+CountXOfRows = COUNTAX(RN_East1, RN_East1[EastSales] * 0.18)   // COUNTAX(Table Name, Expression)<br>
+CalculateMinGST = CALCULATE([TotalSales] * 0.18, RN_East1[Month] = "AUG", RN_East1[Product] = "P013")   // CALCULATE(Expression, Filter1, Filter2, ...)<br>
 
 
 
