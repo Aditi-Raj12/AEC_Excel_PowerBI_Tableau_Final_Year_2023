@@ -49,8 +49,8 @@ VarSales = VAR.S(RN_East1[EastSales])   // VAR.S(Column Name)<br>
 SDSales1 = SQRT(VAR.S(RN_East1[EastSales]))   // SQRT(VAR.S(Column Name))<br>
 VarSales1 = STDEV.S(RN_East1[EastSales])^2   // STDEV.S(Column Name) ^ 2<br>
 GSTSalesSumX = SUMX(RN_East1, RN_East1[EastSales] * 0.18)   // SUMX(Table Name, Expression)<br>
-
-
+GSTSalesAvgX = AVERAGEX(RN_East1, RN_East1[EastSales] * 0.18)   // AVERAGEX(Table Name, Expression)<br>
+GSTSalesMinX = MINX(RN_East1, RN_East1[EastSales] * 0.18)   // MINX(Table Name, Expression)<br>
 
 
 
