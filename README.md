@@ -42,7 +42,7 @@ Data Tables or Fact Table will have Foreign Keys, and will contain transactional
 TotalSales = SUM(RN_East1[EastSales])  // SUM(Coolumn Name)<br>
 AverageSales = AVERAGE(RN_East1[EastSales])  // AVERAGE(Column Name)<br>
 CountSales = COUNT(RN_East1[EastSales])   // COUNT(Column Name)<br>
-
+MaxSales = MAX(RN_East1[EastSales])   // MAX(Column Name)<br>
 
 
 
