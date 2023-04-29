@@ -39,9 +39,10 @@ Data Tables or Fact Table will have Foreign Keys, and will contain transactional
 * Budget(Month) -> Calendar(Date)<br>
 
 **DAX Functions:**<br>
-TotalSales = SUM(RN_East1[EastSales])  // SUM(Coolumn Name)
-AverageSales = AVERAGE(RN_East1[EastSales])  // AVERAGE(Column Name)
-CountSales = COUNT(RN_East1[EastSales])   // COUNT(Column Name)
+TotalSales = SUM(RN_East1[EastSales])  // SUM(Coolumn Name)<br>
+AverageSales = AVERAGE(RN_East1[EastSales])  // AVERAGE(Column Name)<br>
+CountSales = COUNT(RN_East1[EastSales])   // COUNT(Column Name)<br>
+
 
 
 
