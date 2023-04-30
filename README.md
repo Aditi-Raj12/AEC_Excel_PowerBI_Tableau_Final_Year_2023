@@ -14,6 +14,9 @@ https://tinyurl.com/y8hmh8bt
 **PowerBI Download Link:**<br>
 https://www.microsoft.com/en-us/download/details.aspx?id=58494
 
+**Tableau Login Link:**<br>
+https://public.tableau.com/app/discover
+
 **PDF Link on the Cloud:**<br>
 https://www.indiapost.gov.in/VAS/DOP_PDFFiles/Civillistnew.pdf
 
